@@ -1061,7 +1061,7 @@ UNION
 wcd6d:: ds NAME_BUFFER_LENGTH ; buffer for various data
 
 NEXTU
-wEvosMoves:: ds MAX_EVOLUTIONS * EVOLUTION_SIZE + 1
+wEvosMoves:: ds EVOLUTION_SIZE
 wEvosMovesEnd::
 
 NEXTU
